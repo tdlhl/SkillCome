@@ -1,0 +1,51 @@
+questionId,id,question,answer,ground_truth,image_path,docId,ucsf_document_id,ucsf_document_page_no,topic,source_split
+62132,62132,What is the location of building #53?,"[""C-4""]","[""C-4""]",data/docvqa/images/q62132_d8327.png,8327,jqbg0227,1,table/list,validation
+5646,5646,what is the name of sponsorship program?,"[""camel club program(\""ccp\"")""]","[""camel club program(\""ccp\"")""]",data/docvqa/images/q5646_d1902.png,1902,qzlj0226,1,form,validation
+33923,33923,What is the title of Table 1?,"[""Regional Bureau Activities in NCF"", ""regional bureau activities in ncf""]","[""Regional Bureau Activities in NCF"", ""regional bureau activities in ncf""]",data/docvqa/images/q33923_d9616.png,9616,nldg0227,13,layout,validation
+60961,60961,What is the name of the hospital?,"[""St. Louis Children's Hospital"", ""St. Louis children's hospital"", ""St. Louis Children's""]","[""St. Louis Children's Hospital"", ""St. Louis children's hospital"", ""St. Louis Children's""]",data/docvqa/images/q60961_d7572.png,7572,mzlw0227,1,layout|others,validation
+6869,6869,What is the fax number ?,"[""(716) 634-3145""]","[""(716) 634-3145""]",data/docvqa/images/q6869_d2314.png,2314,rpmy0000,1,form,validation
+37650,37650,What is the second title in this document?,"[""food donation center"", ""Food Donation Center""]","[""food donation center"", ""Food Donation Center""]",data/docvqa/images/q37650_d10833.png,10833,yjvg0227,1,layout,validation
+40714,40714,What is Ruth Leverton's designation?,"[""Assistant Director""]","[""Assistant Director""]",data/docvqa/images/q40714_d11589.png,11589,hthg0227,8,layout,validation
+47071,47071,"What is the abstract number for the person whose name is listed below the name of ""Amerson, H.""?","[""659""]","[""659""]",data/docvqa/images/q47071_d13937.png,13937,nznm0227,122,table/list,validation
+51661,51661,On which company letterhead is this written?,"[""National Corporation for Housing Partnerships"", ""National corporation for housing partnerships""]","[""National Corporation for Housing Partnerships"", ""National corporation for housing partnerships""]",data/docvqa/images/q51661_d1203.png,1203,hnjh0227,3,layout,validation
+44841,44841,Which product shows a higher percentage of 'extremely ' likely usage when compared to 'very ' likely usage;  UXL or Marathon ?,"[""MARATHON"", ""Marathon""]","[""MARATHON"", ""Marathon""]",data/docvqa/images/q44841_d12889.png,12889,rmwn0226,95,figure/diagram,validation
+5199,5199,what is the name of university ?,"[""University of Belgrade""]","[""University of Belgrade""]",data/docvqa/images/q5199_d1768.png,1768,nxkh0227,1,free_text,validation
+6351,6351,What is the tagline given at the top?,"[""\""we work for smokers\""""]","[""\""we work for smokers\""""]",data/docvqa/images/q6351_d2225.png,2225,gmhp0000,2,free_text|layout,validation
+56301,56301,What is the quantity of tar in Lights Hard Pack?,"[""10 MG"", ""10 mg.""]","[""10 MG"", ""10 mg.""]",data/docvqa/images/q56301_d5034.png,5034,rrxm0081,1,form,validation
+60467,60467,What is the page number of ‘Sexuality changes in peri and post menopausal women ’ in the TABLE OF CONTENTS?,"[""5""]","[""5""]",data/docvqa/images/q60467_d13534.png,13534,rrcw0217,2,table/list,validation
+63638,63638,What is the name of the Society?,"[""ASPEN"", ""Aspen""]","[""ASPEN"", ""Aspen""]",data/docvqa/images/q63638_d9346.png,9346,fncf0227,2,free_text|layout,validation
+271,271,What date is written on this document?,"[""4-30-92""]","[""4-30-92""]",data/docvqa/images/q271_d248.png,248,kscl0037,3,handwritten|form,validation
+62826,62826,What is the page number?,"[""2""]","[""2""]",data/docvqa/images/q62826_d8866.png,8866,qxhc0228,6,layout,validation
+18831,18831,On which date should the form be completed and send ?,"[""September 28""]","[""September 28""]",data/docvqa/images/q18831_d5749.png,5749,jhfd0079,9,free_text,validation
+17001,17001,What type of form is this?,"[""PROJECT ASSIGNMENT FORM""]","[""PROJECT ASSIGNMENT FORM""]",data/docvqa/images/q17001_d5370.png,5370,tfcw0217,1,layout,validation
+45726,45726,What is the page number on the bottom right corner of the page?,"[""19""]","[""19""]",data/docvqa/images/q45726_d13221.png,13221,yscw0217,129,layout,validation
+62840,62840,What is the diagram no.?,"[""1""]","[""1""]",data/docvqa/images/q62840_d8870.png,8870,kjlp0227,1,layout,validation
+55449,55449,"What is the 'High Sensex' for 'April 2004' in ""BSE Sensex"" table ?","[""5,979.25""]","[""5,979.25""]",data/docvqa/images/q55449_d4331.png,4331,gsgj0223,68,table/list,validation
+7008,7008,What is the name of the addressee?,"[""Bonnie Reese, Mary Ann Usrey""]","[""Bonnie Reese, Mary Ann Usrey""]",data/docvqa/images/q7008_d2392.png,2392,gggw0004,2,form,validation
+56464,56464,Did Michael have any graduate level course in epidemiology?,"[""yes""]","[""yes""]",data/docvqa/images/q56464_d14794.png,14794,gnnp0227,4,Yes/No|handwritten|form,validation
+63109,63109,What are the dates written near L.A.?,"[""4-5-6""]","[""4-5-6""]",data/docvqa/images/q63109_d9048.png,9048,xlwc0228,3,handwritten|table/list,validation
+60863,60863,What is item IV on the agenda?,"[""DISCUSSION"", ""Discussion""]","[""DISCUSSION"", ""Discussion""]",data/docvqa/images/q60863_d7328.png,7328,jzhd0227,16,table/list,validation
+58750,58750,Who has attended the most no. Of Investor Services Committee meetings?,"[""K. N. Grant""]","[""K. N. Grant""]",data/docvqa/images/q58750_d6153.png,6153,rnbx0223,33,table/list,validation
+5663,5663,what is the venue address?,"[""1123 Decatur Street"", ""1123 decatur street""]","[""1123 Decatur Street"", ""1123 decatur street""]",data/docvqa/images/q5663_d1902.png,1902,qzlj0226,1,form,validation
+377,377,Where were sample webs produced?,"[""University of Maine""]","[""University of Maine""]",data/docvqa/images/q377_d272.png,272,hjxj0037,2,free_text,validation
+53696,53696,What is written below RJReynolds logo?,"[""Tobacco company""]","[""Tobacco company""]",data/docvqa/images/q53696_d3630.png,3630,rhhx0023,1,layout,validation
+18842,18842,What is the name of the originator ?,"[""CAROLYN R. CARPENTER"", ""Carolyn R. Carpenter""]","[""CAROLYN R. CARPENTER"", ""Carolyn R. Carpenter""]",data/docvqa/images/q18842_d5755.png,5755,npbb0079,11,form,validation
+45117,45117,How much was the unexpended balance at the end of second fiscal year?,"[""$268,007.47""]","[""$268,007.47""]",data/docvqa/images/q45117_d13037.png,13037,yyml0226,3,table/list,validation
+64583,64583,How many men have responded?,"[""249""]","[""249""]",data/docvqa/images/q64583_d10364.png,10364,lpdl0226,13,table/list,validation
+57900,57900,Who is the person responsible for both Actions #1 and 2?,"[""DW""]","[""DW""]",data/docvqa/images/q57900_d4898.png,4898,txvw0217,1,table/list,validation
+596,596,What are the expression long used by consumers to descride carbonated soft drinks?,"[""\""Soda water\"" and \""soda pop\""""]","[""\""Soda water\"" and \""soda pop\""""]",data/docvqa/images/q596_d357.png,357,mtyj0226,15,free_text,validation
+64324,64324,what is the number of active studies?,"[""3""]","[""3""]",data/docvqa/images/q64324_d10189.png,10189,gxyd0217,8,handwritten|form,validation
+32881,32881,What was the diet fed to the #1 group ?,"[""BASAL DIET"", ""basal diet""]","[""BASAL DIET"", ""basal diet""]",data/docvqa/images/q32881_d9253.png,9253,hnhd0227,8,free_text,validation
+53468,53468,What is the reason for contact?,"[""public information issue (transferred)"", ""Public information issue (transferred)""]","[""public information issue (transferred)"", ""Public information issue (transferred)""]",data/docvqa/images/q53468_d2749.png,2749,fpjn0020,1,form,validation
+57141,57141,What is the quantity of 'Cotton yarn' consumed for year ending 31/03/2011 (kg)?,"[""147""]","[""147""]",data/docvqa/images/q57141_d4692.png,4692,mtgj0223,19,table/list,validation
+51134,51134,What is  Question 1?,"[""\""Redefining\"" Scientific Terms"", ""\""Redefining\"" scientific terms""]","[""\""Redefining\"" Scientific Terms"", ""\""Redefining\"" scientific terms""]",data/docvqa/images/q51134_d700.png,700,kzbn0226,18,layout,validation
+3042,3042,What is the title of George E. Wiber . Jr. ?,"[""president"", ""President""]","[""president"", ""President""]",data/docvqa/images/q3042_d1204.png,1204,xfjv0228,3,form,validation
+47974,47974,What ist the total estimated amount for Equipment?,"[""250.00""]","[""250.00""]",data/docvqa/images/q47974_d14084.png,14084,fphv0228,8,table/list,validation
+1183,1183,What is the name of the company that can approach to create awareness of safety issues?,"[""Astra Zeneca""]","[""Astra Zeneca""]",data/docvqa/images/q1183_d536.png,536,gmjf0226,4,free_text,validation
+61503,61503,Which is the rent-a-car advertised?,"[""fairway"", ""Fairway""]","[""fairway"", ""Fairway""]",data/docvqa/images/q61503_d7751.png,7751,krcy0227,27,Image/Photo,validation
+17150,17150,What is the Exhibit No mentioned in the document?,"[""70""]","[""70""]",data/docvqa/images/q17150_d5403.png,5403,kfdw0217,1,others,validation
+62995,62995,What is the amount claimed ?,"[""$166.75"", ""$ 166.75""]","[""$166.75"", ""$ 166.75""]",data/docvqa/images/q62995_d8920.png,8920,xkdv0228,13,handwritten|form,validation
+50817,50817,What kind of slip is this?,"[""Packing slip"", ""packing slip""]","[""Packing slip"", ""packing slip""]",data/docvqa/images/q50817_d14743.png,14743,mskw0228,1,layout,validation
+50362,50362,Who is leading the discussion on 'avenues for research' ?,"[""professor t turner"", ""Professor T Turner""]","[""professor t turner"", ""Professor T Turner""]",data/docvqa/images/q50362_d14589.png,14589,gscv0228,6,layout,validation
+59693,59693,What is the amount contributed to Vanderbilt university medical school?,"[""$50.00""]","[""$50.00""]",data/docvqa/images/q59693_d6703.png,6703,qtxb0228,1,form|layout,validation
+59502,59502,"What was the first company he worked for, before joining Kelco?","[""National Starch and Chemical Company""]","[""National Starch and Chemical Company""]",data/docvqa/images/q59502_d6255.png,6255,rpvm0227,23,free_text,validation

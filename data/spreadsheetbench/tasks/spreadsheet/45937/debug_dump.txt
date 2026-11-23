@@ -1,0 +1,61 @@
+
+===== SHEET: Current =====
+DIM=A6:N22 max_row=22 max_col=14
+B6: val='Number' (t=str)  raw='Number'
+C6: val='kms' (t=str)  raw='kms'
+D6: val='Category' (t=str)  raw='Category'
+E6: val='%' (t=str)  raw='%'
+H6: val=' Category' (t=str)  raw=' Category'
+B7: val=59 (t=int)  raw=59
+C7: val=25000 (t=int)  raw=25000
+D7: val='A' (t=str)  raw='=IF(B7<=59,"A",IF(AND(B7>59,B7<=99),"B",IF(AND(B7>99,B7<=139),"C",IF(AND(B7>139,B7<=179),"D","E"))))'
+E7: val=22.5 (t=float)  raw=22.5
+H7: val='A' (t=str)  raw='A'
+I7: val='0 up to and including 59' (t=str)  raw='0 up to and including 59'
+B8: val=60 (t=int)  raw=60
+C8: val=25000 (t=int)  raw=25000
+D8: val='B' (t=str)  raw='=IF(B8<=59,"A",IF(AND(B8>59,B8<=99),"B",IF(AND(B8>99,B8<=139),"C",IF(AND(B8>139,B8<=179),"D","E"))))'
+H8: val='B' (t=str)  raw='B'
+I8: val='More than 59 up to and including 99' (t=str)  raw='More than 59 up to and including 99'
+B9: val=100 (t=int)  raw=100
+C9: val=26002 (t=int)  raw=26002
+D9: val='C' (t=str)  raw='=IF(B9<=59,"A",IF(AND(B9>59,B9<=99),"B",IF(AND(B9>99,B9<=139),"C",IF(AND(B9>139,B9<=179),"D","E"))))'
+H9: val='C' (t=str)  raw='C'
+I9: val='More than 99 up to and including 139' (t=str)  raw='More than 99 up to and including 139'
+H10: val='D' (t=str)  raw='D'
+I10: val='More than 139 up to and including 179' (t=str)  raw='More than 139 up to and including 179'
+H11: val='E' (t=str)  raw='E'
+I11: val='More than 179' (t=str)  raw='More than 179'
+H17: val='kms' (t=str)  raw='kms'
+J17: val='Categories' (t=str)  raw='Categories'
+J18: val='A' (t=str)  raw='A'
+K18: val='B' (t=str)  raw='B'
+L18: val='C' (t=str)  raw='C'
+M18: val='D' (t=str)  raw='D'
+N18: val='E' (t=str)  raw='E'
+J19: val='%' (t=str)  raw='%'
+K19: val='%' (t=str)  raw='%'
+L19: val='%' (t=str)  raw='%'
+M19: val='%' (t=str)  raw='%'
+N19: val='%' (t=str)  raw='%'
+H20: val=0 (t=int)  raw=0
+I20: val=26000 (t=int)  raw=26000
+J20: val=22.5 (t=float)  raw=22.5
+K20: val=26.25 (t=float)  raw=26.25
+L20: val=30 (t=int)  raw=30
+M20: val=30 (t=int)  raw=30
+N20: val=37.5 (t=float)  raw=37.5
+H21: val=26001 (t=int)  raw=26001
+I21: val=39000 (t=int)  raw=39000
+J21: val=18 (t=int)  raw=18
+K21: val=21 (t=int)  raw=21
+L21: val=24 (t=int)  raw=24
+M21: val=24 (t=int)  raw=24
+N21: val=30 (t=int)  raw=30
+H22: val=39001 (t=int)  raw=39001
+I22: val=52000 (t=int)  raw=52000
+J22: val=13.5 (t=float)  raw=13.5
+K22: val=15.75 (t=float)  raw=15.75
+L22: val=18 (t=int)  raw=18
+M22: val=18 (t=int)  raw=18
+N22: val=22.5 (t=float)  raw=22.5
