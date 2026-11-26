@@ -1,0 +1,19 @@
+scripts/eval_only.py
+  s_e866318cc20515::t_834b2f93963d99 220-235,506-517
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "38f1f5358db46482355b8f6717080e7dede5f9e4",
+  "prompts": {},
+  "sessions": {
+    "s_e866318cc20515": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0d92f-613b-77d0-b8e1-7a75357a3600",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "fwlhl <fwlhl@U-XX7C70F1-2308.local>"
+    }
+  }
+}
