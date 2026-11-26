@@ -217,6 +217,22 @@ def parse_args() -> argparse.Namespace:
     return p.parse_args()
 
 
+def _check_eval_params(out_root: str, params: dict) -> None:
+    path = os.path.join(out_root, "eval_config.json")
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            previous = json.load(f)
+        if previous != params:
+            raise ValueError("Evaluation parameters changed. Use a new OUT_ROOT.")
+    else:
+        if any(os.path.exists(os.path.join(out_root, name)) for name in (
+            "results.jsonl", "predictions", "eval_summary.json",
+        )):
+            raise ValueError("Old evaluation outputs have no parameter record. Use a new OUT_ROOT.")
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(params, f, indent=2, ensure_ascii=False)
+
+
 def main() -> None:
     args = parse_args()
 
@@ -486,6 +502,18 @@ def main() -> None:
     print(f"\n  [eval] split={split}  items={len(items)}")
     print(f"  [eval] out_root={out_root}")
     print(f"{'='*60}")
+
+    if cfg.get("env") == "spreadsheetbench":
+        params = {key: cfg.get(key) for key in (
+            "target_model", "target_backend", "reasoning_effort",
+            "data_root", "data_path", "split_dir", "split_mode", "split_ratio", "split_seed",
+            "test_env_num",
+        )}
+        params.update(skill=skill_path, split=split, seed=seed)
+        params.update({key: getattr(adapter, key) for key in (
+            "mode", "max_turns", "max_completion_tokens", "exec_timeout", "workers",
+        )})
+        _check_eval_params(out_root, params)
 
     # Run rollout
     results = adapter.rollout(items, skill_content, out_root)
